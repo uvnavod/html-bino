@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Bino</title>
   <!-- <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -44,38 +44,56 @@
     <div class="header-slide">
       <div class="header-slide__image"></div>
       <div class="header-slide__overlay"></div>
-    </div>
+      <ul class="header-slide-list">
+        <li class="header-slide-list-item">
+          <div class="title title--header">
+            <span>Our Clients Are Our First Priority</span>
+            <h1>WELCOME TO BINO</h1>
+            <div class="title__separate"></div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+          <div>
+            <!-- <button class="header-slide-list-item__button">get started now</button>
+            <button class="header-slide-list-item__button header-slide-list-item__button--transparent">read more</button> -->
+          </div>
+        </li><!-- .header-slide-list__item -->
+      </ul><!-- .header-slide-list -->
+    </div><!-- .header-slide -->
   </section><!-- .header -->
 
   <section id="about" class="about">
     <div class="container container--flex">
       <div class="about-item">
-        <img src="img/ic_glass.png" alt="">
-        <div class="about-item__quad"></div>
+        <div class="about-item__quad">
+          <img src="img/ic_glass.png" alt="">
+        </div>
         <div class="about-item__content">
           <h3>about design</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
         </div>
       </div><!-- .about-item -->
       <div class="about-item">
-        <img src="img/ic_heart.png" alt="">
-        <div class="about-item__quad"></div>
+        <div class="about-item__quad">
+          <img src="img/ic_heart.png" alt="">
+        </div>
         <div class="about-item__content">
           <h3>clean code</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
         </div>
       </div><!-- .about-item -->
       <div class="about-item">
-        <img src="img/ic_light.png" alt="">
-        <div class="about-item__quad"></div>
+        <div class="about-item__quad">
+          <img src="img/ic_light.png" alt="">
+        </div>
         <div class="about-item__content">
           <h3>create ideas</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
         </div>
       </div><!-- .about-item -->
       <div class="about-item">
-        <img src="img/ic_chat.png" alt="">
-        <div class="about-item__quad"></div>
+        <div class="about-item__quad">
+          <img src="img/ic_chat.png" alt="">
+        </div>
         <div class="about-item__content">
           <h3>free support</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
@@ -83,6 +101,7 @@
       </div><!-- .about-item -->
     </div><!-- .container -->
   </section><!-- .about -->
+
   <section id="history" class="history">
     <div class="container container--flex">
       <div class="history-box">
@@ -97,23 +116,484 @@
     </div><!-- .container -->
   </section><!-- .history -->
 
+  <section class="service">
+    <img class="service__image" src="img/img_service_bg.png" alt="">
+    <div class="service-detail">
+      <h3>our services</h3>
+      <ul class="service-detail-list">
+        <li class="service-detail-list-item">
+          <div class="service-detail-list-item__image">
+            <img src="img/ic_tv_red.png" alt="">
+          </div>
+          <div class="service-detail-list-item__content">
+            <h4>web design</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ip sum has been the industry's standard dummy text ever.</p>
+          </div>
+        </li><!-- .service-detail-list-item -->
+        <li class="service-detail-list-item">
+          <div class="service-detail-list-item__image">
+            <img src="img/ic_doc_red.png" alt="">
+          </div>
+          <div class="service-detail-list-item__content">
+            <h4>print design</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>Lorem Ip sum has been the industry's standard dummy text ever.</p>
+          </div>
+        </li><!-- .service-detail-list-item -->
+        <li class="service-detail-list-item">
+          <div class="service-detail-list-item__image">
+            <img src="img/ic_camera_red.png" alt="">
+          </div>
+          <div class="service-detail-list-item__content">
+            <h4>photography</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ip sum has been the industry's standard dummy text ever.</p>
+          </div>
+        </li><!-- .service-detail-list-item -->
+      </ul>
+    </div>
+  </section>
+
   <section class="work">
     <div class="title">
-      <h1>recent works</h1>
+      <h3>recent works</h3>
       <p>It has surviced not only five centures, but also the leap scrambled it to make a type.</p>
+      <div class="title__separate"></div>
+    </div>
+    <ul class="work-list">
+      <li class="work-list__item work-list__item--active" onclick="activeWorkItem(this)">
+        <span>all</span>
+      </li>
+      <li class="work-list__item" onclick="activeWorkItem(this);">
+        <span>print design</span>
+      </li>
+      <li class="work-list__item" onclick="activeWorkItem(this);">
+        <span>animation</span>
+      </li>
+      <li class="work-list__item" onclick="activeWorkItem(this);">
+        <span>art</span>
+      </li>
+      <li class="work-list__item" onclick="activeWorkItem(this);">
+        <span>web design</span>
+      </li>
+      <li class="work-list__item" onclick="activeWorkItem(this);">
+        <span>photography</span>
+      </li>
+      <li class="work-list__item" onclick="activeWorkItem(this);">
+        <span>video</span>
+      </li>
+    </ul>
+
+    <div class="work-profolio">
+      <div class="work-profolio-item">
+        <img src="img/img_work_1.png" alt="work_1">
+        <div class="work-profolio-item-overlay">
+          <div class="work-profolio-item-overlay__detail">
+            <h3>t-shirt design</h3>
+            <span>art</span><span>/</span><span>t-shirt</span>
+          </div><!-- .work-profolio-item-overlay__detail -->
+        </div><!-- .work-profolio-item-overlay -->
+      </div><!-- .work-profolio-item -->
+
+      <div class="work-profolio-item">
+        <img src="img/img_work_2.png" alt="work_1">
+        <div class="work-profolio-item-overlay">
+          <div class="work-profolio-item-overlay__detail">
+            <h3>t-shirt design</h3>
+            <span>art</span><span>/</span><span>t-shirt</span>
+          </div><!-- .work-profolio-item-overlay__detail -->
+        </div><!-- .work-profolio-item-overlay -->
+      </div><!-- .work-profolio-item -->
+
+      <div class="work-profolio-item">
+        <img src="img/img_work_3.png" alt="work_1">
+        <div class="work-profolio-item-overlay">
+          <div class="work-profolio-item-overlay__detail">
+            <h3>t-shirt design</h3>
+            <span>art</span><span>/</span><span>t-shirt</span>
+          </div><!-- .work-profolio-item-overlay__detail -->
+        </div><!-- .work-profolio-item-overlay -->
+      </div><!-- .work-profolio-item -->
+
+      <div class="work-profolio-item">
+        <img src="img/img_work_4.png" alt="work_1">
+        <div class="work-profolio-item-overlay">
+          <div class="work-profolio-item-overlay__detail">
+            <h3>t-shirt design</h3>
+            <span>art</span><span>/</span><span>t-shirt</span>
+          </div><!-- .work-profolio-item-overlay__detail -->
+        </div><!-- .work-profolio-item-overlay -->
+      </div><!-- .work-profolio-item -->
+
+      <div class="work-profolio-item">
+        <img src="img/img_work_5.png" alt="work_1">
+        <div class="work-profolio-item-overlay">
+          <div class="work-profolio-item-overlay__detail">
+            <h3>t-shirt design</h3>
+            <span>art</span><span>/</span><span>t-shirt</span>
+          </div><!-- .work-profolio-item-overlay__detail -->
+        </div><!-- .work-profolio-item-overlay -->
+      </div><!-- .work-profolio-item -->
+
+      <div class="work-profolio-item">
+        <img src="img/img_work_6.png" alt="work_1">
+        <div class="work-profolio-item-overlay">
+          <div class="work-profolio-item-overlay__detail">
+            <h3>t-shirt design</h3>
+            <span>art</span><span>/</span><span>t-shirt</span>
+          </div><!-- .work-profolio-item-overlay__detail -->
+        </div><!-- .work-profolio-item-overlay -->
+      </div><!-- .work-profolio-item -->
+
+      <div class="work-profolio-item">
+        <img src="img/img_work_7.png" alt="work_1">
+        <div class="work-profolio-item-overlay">
+          <div class="work-profolio-item-overlay__detail">
+            <h3>t-shirt design</h3>
+            <span>art</span><span>/</span><span>t-shirt</span>
+          </div><!-- .work-profolio-item-overlay__detail -->
+        </div><!-- .work-profolio-item-overlay -->
+      </div><!-- .work-profolio-item -->
+
+      <div class="work-profolio-item">
+        <img src="img/img_work_8.png" alt="work_1">
+        <div class="work-profolio-item-overlay">
+          <div class="work-profolio-item-overlay__detail">
+            <h3>t-shirt design</h3>
+            <span>art</span><span>/</span><span>t-shirt</span>
+          </div><!-- .work-profolio-item-overlay__detail -->
+        </div><!-- .work-profolio-item-overlay -->
+      </div><!-- .work-profolio-item -->
+    </div><!-- .work-profolio -->
+  </section><!-- .profolio -->
+
+  <section class="study">
+    <div class="container">
+      <div class="title">
+        <h3>case study</h3>
+        <p>A brief story about how this process works, keep an eye till the end.</p>
+        <div class="title__separate"></div>
+      </div>
+      <div class="study-box">
+        <img src="img/img_study.png" alt="study" class="study-box__image">
+        <div class="study-box-slide">
+          <ul class="study-box-slide-list">
+            <li class="study-box-slide-list-item study-box-slide-list-item--active">
+              <div class="study-box-slide-list-item__image">
+                <img src="img/ic_light_white.png" alt="">
+              </div>
+              <h3>ACCUMULATE CREATIVE IDEAS</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry Printing and typelorem Ipsum has been the setting let.</p>
+              <button>read more</button>
+            </li><!-- .study-box-slide-list-item -->
+            <li class="study-box-slide-list-item">
+              <div class="study-box-slide-list-item__image">
+                <img src="img/ic_light_white.png" alt="">
+              </div>
+              <h3>ACCUMULATE CREATIVE IDEAS 2</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry Printing and typelorem Ipsum has been the setting let.</p>
+              <button>read more</button>
+            </li><!-- .study-box-slide-list-item -->
+            <li class="study-box-slide-list-item">
+              <div class="study-box-slide-list-item__image">
+                <img src="img/ic_light_white.png" alt="">
+              </div>
+              <h3>ACCUMULATE CREATIVE IDEAS 3</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry Printing and typelorem Ipsum has been the setting let.</p>
+              <button>read more</button>
+            </li><!-- .study-box-slide-list-item -->
+          </ul><!-- .study-box-slide-list -->
+          <ul class="study-box-slide-dot">
+            <li class="study-box-slide-dot__item study-box-slide-dot__item--active" onclick="showSlide(1);">
+              <i class="fas fa-circle"></i>
+            </li>
+            <li class="study-box-slide-dot__item" onclick="showSlide(2);">
+              <i class="fas fa-circle"></i>
+            </li>
+            <li class="study-box-slide-dot__item" onclick="showSlide(3);">
+              <i class="fas fa-circle"></i>
+            </li>
+          </ul><!-- .study-box-slide-dot -->
+        </div><!-- .study-box-slide -->
+      </div><!-- .study-box -->
+    </div><!-- .container -->
+  </section>
+
+  <section class="count">
+    <img class="count__background" src="img/img_count_bg.png" alt="count_bg">
+    <div class="count__overlay"></div>
+    <div class="container container--absolute">
+      <ul class="count-list">
+        <li class="count-list-item">
+          <div class="count-list-item__circle">
+            <img src="img/ic_count_1.png" alt="heart_item">
+          </div>
+          <h3 class="count-list-item__number">
+            <span id="user">0</span>
+          </h3>
+          <p class="count-list-item__text">User Favorite</p>
+        </li><!-- .count-list-item -->
+        <li class="count-list-item">
+          <div class="count-list-item__circle">
+            <img src="img/ic_count_2.png" alt="heart_item">
+          </div>
+          <h3 class="count-list-item__number">
+            <span id="post">0</span>K
+          </h3>
+          <p class="count-list-item__text">Post Last 24 Hours</p>
+        </li><!-- .count-list-item -->
+        <li class="count-list-item">
+          <div class="count-list-item__circle">
+            <img src="img/ic_count_3.png" alt="heart_item">
+          </div>
+          <h3 class="count-list-item__number">
+            <span id="total">0</span>
+          </h3>
+          <p class="count-list-item__text">Total Posts</p>
+        </li><!-- .count-list-item -->
+        <li class="count-list-item">
+          <div class="count-list-item__circle">
+            <img src="img/ic_count_4.png" alt="heart_item">
+          </div>
+          <h3 class="count-list-item__number">
+            <span id="campaign">0</span>
+          </h3>
+          <p class="count-list-item__text">Campaigns</p>
+        </li><!-- .count-list-item -->
+        <li class="count-list-item">
+          <div class="count-list-item__circle">
+            <img src="img/ic_count_5.png" alt="heart_item">
+          </div>
+          <h3 class="count-list-item__number">
+            <span id="feature">0</span>
+          </h3>
+          <p class="count-list-item__text">Amazing Features</p>
+        </li><!-- .count-list-item -->
+      </ul><!-- .count-list -->
+    </div><!-- .container -->
+  </section><!-- .count -->
+
+  <section class="price">
+    <div class="container">
+      <div class="title">
+        <h3>our pricing</h3>
+        <p>A 30 days free trial for all. A brief story about how this process works, keep an eye till the end.</p>
+        <div class="title__separate"></div>
+      </div>
+      <ul class="price-list">
+        <li class="price-list-item">
+          <div class="price-list-item__title">starter</div>
+          <div class="price-list-item-detail">
+            <div class="price-list-item-detail__mark">
+              <label>
+                <h3>$19</h3>
+                <p>per month</p>
+              </label>
+            </div>
+            <ul>
+              <li>Compettition Analysis Methods</li>
+              <li>All Ranked URLs</li>
+              <li>International Support System</li>
+              <li>Social Media Tracking</li>
+            </ul>
+            <button>choose plan</button>
+          </div>
+        </li><!-- .price-list-item -->
+        <li class="price-list-item price-list-item--red">
+          <div class="price-list-item__title">starter</div>
+          <div class="price-list-item-detail">
+            <div class="price-list-item-detail__mark">
+              <label>
+                <h3>$19</h3>
+                <p>per month</p>
+              </label>
+            </div>
+            <ul>
+              <li>Compettition Analysis Methods</li>
+              <li>All Ranked URLs</li>
+              <li>International Support System</li>
+              <li>Social Media Tracking</li>
+            </ul>
+            <button>choose plan</button>
+          </div>
+        </li><!-- .price-list-item -->
+        <li class="price-list-item">
+          <div class="price-list-item__title">starter</div>
+          <div class="price-list-item-detail">
+            <div class="price-list-item-detail__mark">
+              <label>
+                <h3>$19</h3>
+                <p>per month</p>
+              </label>
+            </div>
+            <ul>
+              <li>Compettition Analysis Methods</li>
+              <li>All Ranked URLs</li>
+              <li>International Support System</li>
+              <li>Social Media Tracking</li>
+            </ul>
+            <button>choose plan</button>
+          </div>
+        </li><!-- .price-list-item -->
+      </ul><!-- .price-list -->
+    </div><!-- .container -->
+  </section><!-- .price -->
+
+  <section class="team">
+    <img class="team__background" src="img/img_team_bg.png" alt="">
+    <div class="team__overlay"></div>
+    <div class="title title--white">
+      <h3>our team</h3>
+      <p>Meet the craziest team. Share your thoughts with them.</p>
       <div class="title__separate"></div>
     </div>
   </section>
 
-  <section class="client test">
+  <section class="client">
     <div class="container">
       <div class="title">
-        <h1>Great Integrations with Others</h1>
-        <p>Suspendisse sed eros mollis, tincidunt felis eget, interdum erat.<br/>Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna suscipit, dictum quam nec. p>
+        <h3>Great Integrations with Others</h3>
+        <p>Suspendisse sed eros mollis, tincidunt felis eget, interdum erat.<br/>Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna suscipit, dictum quam nec. <p>
         <div class="title__separate"></div>
       </div>
-    </div>
-  </section>
+      <div class="client-list">
+        <div class="client-list-item">
+          <div class="client-list-item__image">
+            <img src="img/img_client_1.png" alt="">
+          </div>
+        </div><!-- .client-list-item -->
+        <div class="client-list-item">
+          <div class="client-list-item__image">
+            <img src="img/img_client_2.png" alt="">
+          </div>
+        </div><!-- .client-list-item -->
+        <div class="client-list-item">
+          <div class="client-list-item__image">
+            <img src="img/img_client_3.png" alt="">
+          </div>
+        </div><!-- .client-list-item -->
+        <div class="client-list-item">
+          <div class="client-list-item__image">
+            <img src="img/img_client_4.png" alt="">
+          </div>
+        </div><!-- .client-list-item -->
+        <div class="client-list-item">
+          <div class="client-list-item__image">
+            <img src="img/img_client_5.png" alt="">
+          </div>
+        </div><!-- .client-list-item -->
+        <div class="client-list-item">
+          <div class="client-list-item__image">
+            <img src="img/img_client_5.png" alt="">
+          </div>
+        </div><!-- .client-list-item -->
+        <div class="client-list-item">
+          <div class="client-list-item__image">
+            <img src="img/img_client_4.png" alt="">
+          </div>
+        </div><!-- .client-list-item -->
+        <div class="client-list-item">
+          <div class="client-list-item__image">
+            <img src="img/img_client_8.png" alt="">
+          </div>
+        </div><!-- .client-list-item -->
+        <div class="client-list-item">
+          <div class="client-list-item__image">
+            <img src="img/img_client_2.png" alt="">
+          </div>
+        </div><!-- .client-list-item -->
+        <div class="client-list-item">
+          <div class="client-list-item__image">
+            <img src="img/img_client_1.png" alt="">
+          </div>
+      </div><!-- .client-list -->
+    </div><!-- .container -->
+  </section><!-- .client -->
+
+  <section class="blog">
+    <div class="title">
+      <h3>our blog</h3>
+      <p>Suspendisse sed eros mollis, tincidunt felis eget, interdum eratullam sit amet odio.</p>
+      <div class="title__separate"></div>
+    </div><!-- .title -->
+    <div class="blog-profolio">
+      <div class="blog-profolio-single">
+        <img src="img/img_blog_1.png" alt="blog">
+        <div class="blog-profolio-single-content">
+          <span>art / t-shirt</span>
+          <h3>t-shirt design</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+          <a href="#">Read More <span>&raquo;</span></a>
+          <!-- <div class="blog-profolio-single-content__triangle"> -->
+        </div><!-- .blog-profolio-single-content -->
+      </div><!-- .blog-profolio-single -->
+
+      <div class="blog-profolio-single">
+        <img src="img/img_blog_2.png" alt="blog">
+        <div class="blog-profolio-single-content">
+          <span>art / t-shirt</span>
+          <h3>t-shirt design</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+          <a href="#">Read More <span>&raquo;</span></a>
+          <!-- <div class="blog-profolio-single-content__triangle"> -->
+        </div><!-- .blog-profolio-single-content -->
+      </div><!-- .blog-profolio-single -->
+
+      <div class="blog-profolio-single">
+        <div class="blog-profolio-single-content blog-profolio-single-content--left">
+          <span>art / t-shirt</span>
+          <h3>t-shirt design</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+          <a href="#">Read More <span>&raquo;</span></a>
+          <!-- <div class="blog-profolio-single-content__triangle"> -->
+        </div><!-- .blog-profolio-single-content -->
+        <img src="img/img_blog_3.png" alt="blog">
+      </div><!-- .blog-profolio-single -->
+
+      <div class="blog-profolio-single">
+        <div class="blog-profolio-single-content blog-profolio-single-content--left">
+          <span>art / t-shirt</span>
+          <h3>t-shirt design</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+          <a href="#">Read More <span>&raquo;</span></a>
+          <!-- <div class="blog-profolio-single-content__triangle"> -->
+        </div><!-- .blog-profolio-single-content -->
+        <img src="img/img_blog_4.png" alt="blog">
+      </div><!-- .blog-profolio-single -->
+    </div><!-- .blog-profolio -->
+  </section><!-- .blog -->
+
+  <section class="contact">
+    <div class="container">
+      <div class="title">
+        <h3>keep in touch</h3>
+        <p>Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna suscipit, dictum quam nec.</p>
+        <div class="title__separate"></div>
+      </div><!-- .title -->
+      <div class="contact-box">
+        <div class="contact-box-address">
+          <div class="contact-box-address__item">
+            <h1>our address</h1>
+            <p>House #13, Streat road, Sydney 2310 Australia</p>
+          </div>
+          <div class="contact-box-address__item">
+            <h1>call us</h1>
+            <p>+ 880 168 109 1425</p>
+            <p>+ 0216809142</p>
+          </div>
+          <div class="contact-box-address__item">
+            <h1>email us</h1>
+            <p>contactus@email.com</p>
+          </div>
+        </div>
+        <div class="contact-box-text">
+          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Email">
+          <input type="text" placeholder="Subject">
+          <textarea rows="6" placeholder="Message"></textarea>
+          <button>send message</button>
+        </div>
+      </div>
+    </div><!-- .container -->
+  </section><!-- .contact -->
 
   <section class="trial">
     <img class="trial__background" src="img/img_trailbg.jpg" alt="trial">
@@ -129,32 +609,36 @@
     <div class="container container--relative">
       <ul class="footer-social">
         <li class="footer-social__item">
-          <i class="fab fa-facebook-f"></i>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
         </li>
         <li class="footer-social__item">
-          <i class="fab fa-twitter"></i>
+          <a href="#"><i class="fab fa-twitter"></i></a>
         </li>
         <li class="footer-social__item">
-          <i class="fas fa-rss"></i>
+          <a href="#"><i class="fas fa-rss"></i></a>
         </li>
         <li class="footer-social__item">
-          <i class="fab fa-google-plus-g"></i>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
         </li>
         <li class="footer-social__item">
-          <i class="fab fa-linkedin-in"></i>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
         </li>
         <li class="footer-social__item">
-          <i class="fab fa-skype"></i>
+          <a href="#"><i class="fab fa-skype"></i></a>
         </li>
         <li class="footer-social__item">
-          <i class="fab fa-vimeo-v"></i>
+          <a href="#"><i class="fab fa-vimeo-v"></i></a>
         </li>
         <li class="footer-social__item">
-          <i class="fab fa-tumblr"></i>
+          <a href="#"><i class="fab fa-tumblr"></i></a>
         </li>
       </ul>
       <span class="footer__author">Kazi Erfan &copy; All Rights Reserved</span>
     </div>
   </section>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
