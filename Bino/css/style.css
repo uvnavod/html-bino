@@ -53,58 +53,58 @@
   src: url(../fonts/SourceSansPro-SemiboldItalic.otf);
 }
 
-/* line 62, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 62, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 body, div, ul, li, img, h1, h2, h3, h4, h5, h6, p, span {
   padding: 0;
   margin: 0;
 }
 
-/* line 66, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 66, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 69, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 69, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 72, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 72, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 body {
   font-family: OpenSans-Regular;
 }
 
-/* line 75, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 75, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .container {
   width: 1170px;
   height: 100%;
   margin: 0 auto;
 }
 
-/* line 79, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 79, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .container__row {
   margin-right: -15px;
   margin-left: -15px;
 }
 
-/* line 83, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 83, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .container__col {
   width: 20%;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 88, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 88, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .container--flex {
   display: flex;
 }
 
-/* line 91, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 91, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .container--relative {
   position: relative;
 }
 
-/* line 94, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 94, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .container--absolute {
   position: absolute;
   height: auto;
@@ -113,13 +113,13 @@ body {
   transform: translateX(-50%);
 }
 
-/* line 103, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 103, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header {
   width: 100%;
-  height: 115vh;
+  height: 100vh;
 }
 
-/* line 106, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 106, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-nav {
   position: absolute;
   width: 100%;
@@ -127,7 +127,7 @@ body {
   z-index: 99;
 }
 
-/* line 111, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 111, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-nav__logo {
   position: absolute;
   left: 0;
@@ -137,13 +137,13 @@ body {
   width: 140px;
 }
 
-/* line 118, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 118, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-nav__logo img {
   width: 100%;
   height: 100%;
 }
 
-/* line 123, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 123, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-nav-menu {
   position: absolute;
   right: 0;
@@ -152,12 +152,12 @@ body {
   display: flex;
 }
 
-/* line 129, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 129, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-nav-menu__item {
   margin-left: 60px;
 }
 
-/* line 131, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 131, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-nav-menu__item a {
   font-size: 14px;
   color: #f4f5f9;
@@ -166,7 +166,7 @@ body {
   transition: 0.2s color;
 }
 
-/* line 137, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 137, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-nav-menu__item a::after {
   content: "";
   display: block;
@@ -177,28 +177,28 @@ body {
   margin-top: 20px;
 }
 
-/* line 147, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 147, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-nav-menu__item:first-child {
   margin-left: 0;
 }
 
-/* line 151, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 151, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-nav-menu__item--active a, .header-nav-menu__item:hover a {
   color: #e74c3c;
 }
 
-/* line 153, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 153, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-nav-menu__item--active a::after, .header-nav-menu__item:hover a::after {
   width: 100%;
 }
 
-/* line 161, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 161, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-slide {
   width: 100%;
-  height: 115vh;
+  height: 100%;
 }
 
-/* line 165, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 164, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-slide__image {
   position: absolute;
   background-image: url(../img/img_slide_bg.png);
@@ -206,25 +206,25 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 115vh;
+  height: 100%;
   z-index: -1;
-  clip-path: polygon(0% 0%, 100% 0, 100% 100vh, 50% 115vh, 0 100vh);
+  clip-path: polygon(0% 0%, 100% 0, 100% 86%, 50% 100%, 0 86%);
 }
 
-/* line 177, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 176, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-slide__overlay {
   position: absolute;
   z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
-  height: 115vh;
+  height: 100%;
   background: #000;
   opacity: 0.7;
-  clip-path: polygon(0% 0%, 100% 0, 100% 100vh, 50% 115vh, 0 100vh);
+  clip-path: polygon(0% 0%, 100% 0, 100% 86%, 50% 100%, 0 86%);
 }
 
-/* line 190, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 189, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-slide-list-item__button {
   width: 226px;
   height: 56px;
@@ -238,13 +238,39 @@ body {
   background: #e74c3c;
 }
 
-/* line 201, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 200, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .header-slide-list-item__button--transparent {
   background: transparent;
   border: 1px solid #e74c3c;
 }
 
-/* line 211, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 208, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
+.header-down {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  z-index: 99;
+  cursor: pointer;
+}
+
+/* line 219, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
+.header-down__item {
+  background: #fff;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 232, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .about {
   width: 100%;
   height: 440px;
@@ -252,7 +278,7 @@ body {
   padding: 110px 0;
 }
 
-/* line 216, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 237, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .about-item {
   position: relative;
   width: 22%;
@@ -260,7 +286,7 @@ body {
   color: blue;
 }
 
-/* line 221, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 242, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .about-item__quad {
   position: absolute;
   top: 5px;
@@ -271,7 +297,7 @@ body {
   transition: 0.6s all;
 }
 
-/* line 231, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 252, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .about-item img {
   position: absolute;
   top: 50%;
@@ -280,13 +306,13 @@ body {
   transition: 0.6s all;
 }
 
-/* line 238, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 259, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .about-item__content {
   position: absolute;
   top: 100px;
 }
 
-/* line 241, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 262, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .about-item__content h3 {
   font-size: 18px;
   font-family: OpenSans-Semibold;
@@ -297,7 +323,7 @@ body {
   transition: color 0.6s;
 }
 
-/* line 249, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 270, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .about-item__content h3::after {
   content: "";
   display: block;
@@ -307,7 +333,7 @@ body {
   background: #6a6a6a;
 }
 
-/* line 258, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 279, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .about-item__content p {
   width: 100%;
   font-size: 14px;
@@ -316,28 +342,28 @@ body {
   font-family: SourceSansPro-Light;
 }
 
-/* line 266, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 287, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .about-item:last-child {
   margin-right: 0;
 }
 
-/* line 269, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 290, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .about-item:hover .about-item__quad {
   border-color: #e74c3c;
   transform: rotate(45deg);
 }
 
-/* line 273, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 294, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .about-item:hover .about-item__quad img {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-/* line 276, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 297, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .about-item:hover .about-item__content h3 {
   color: #e74c3c;
 }
 
-/* line 282, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 303, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .history {
   width: 100%;
   height: 690px;
@@ -346,17 +372,17 @@ body {
   border-top: 1px solid #e6e7eb;
 }
 
-/* line 288, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 309, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .history-box {
   width: 100%;
 }
 
-/* line 290, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 311, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .history-box img {
   height: 100%;
 }
 
-/* line 293, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 314, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .history-box h1 {
   font-size: 36px;
   font-family: SourceSansPro-Bold;
@@ -367,7 +393,7 @@ body {
   margin-bottom: 42px;
 }
 
-/* line 302, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 323, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .history-box p {
   font-size: 14px;
   font-family: SourceSansPro-Regular;
@@ -376,7 +402,7 @@ body {
   line-height: 2;
 }
 
-/* line 309, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 330, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .history-box button {
   width: 225px;
   height: 55px;
@@ -390,12 +416,12 @@ body {
   cursor: pointer;
 }
 
-/* line 320, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 341, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .history-box button:focus {
   outline: none;
 }
 
-/* line 328, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 349, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .service {
   width: 100%;
   height: 760px;
@@ -403,7 +429,7 @@ body {
   position: relative;
 }
 
-/* line 333, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 354, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .service__image {
   position: absolute;
   top: 0;
@@ -413,7 +439,7 @@ body {
   object-fit: cover;
 }
 
-/* line 341, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 362, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .service-detail {
   position: relative;
   width: 54%;
@@ -422,7 +448,7 @@ body {
   padding-top: 150px;
 }
 
-/* line 347, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 368, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .service-detail h3 {
   text-transform: uppercase;
   color: #fff;
@@ -435,13 +461,13 @@ body {
   margin-bottom: 67px;
 }
 
-/* line 358, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 379, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .service-detail-list {
   display: block;
   min-height: 500px;
 }
 
-/* line 361, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 382, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .service-detail-list-item {
   position: relative;
   min-height: 75px;
@@ -449,29 +475,37 @@ body {
   margin-bottom: 55px;
 }
 
-/* line 366, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
-.service-detail-list-item__image {
+/* line 387, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
+.service-detail-list-item-image {
   position: absolute;
   right: 0;
   transform: translateX(50%);
-  height: 64px;
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* line 395, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
+.service-detail-list-item-image__center {
+  margin: 4px;
   width: 64px;
+  height: 64px;
   border-radius: 50%;
   background: #fff;
-  border: 4px solid #999;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 379, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 406, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .service-detail-list-item__content {
   position: absolute;
   right: 80px;
   text-align: right;
 }
 
-/* line 383, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 410, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .service-detail-list-item__content h4 {
   font-size: 18px;
   font-family: OpenSans-Semibold;
@@ -480,7 +514,7 @@ body {
   margin-bottom: 11px;
 }
 
-/* line 390, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 417, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .service-detail-list-item__content p {
   font-size: 14px;
   font-family: SourceSansPro-Regular;
@@ -488,13 +522,13 @@ body {
   max-width: 570px;
 }
 
-/* line 402, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 429, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work {
   min-height: 300px;
   padding-top: 140px;
 }
 
-/* line 405, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 432, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-list {
   width: 100%;
   display: flex;
@@ -502,44 +536,44 @@ body {
   margin-top: 62px;
 }
 
-/* line 410, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 437, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-list__item {
   font-size: 14px;
   text-transform: uppercase;
   font-family: OpenSans-Regular;
 }
 
-/* line 414, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 441, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-list__item span {
   color: #999;
   cursor: pointer;
 }
 
-/* line 418, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 445, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-list__item:after {
   content: "/";
   margin: 0 18px;
   display: inline-block;
 }
 
-/* line 424, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 451, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-list__item:last-child:after {
   content: none;
 }
 
-/* line 429, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 456, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-list__item:hover span, .work-list__item:active span, .work-list__item--active span {
   color: red;
 }
 
-/* line 435, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 462, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-profolio {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 439, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 466, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-profolio-item {
   width: 25%;
   height: 25vw;
@@ -547,7 +581,7 @@ body {
   cursor: pointer;
 }
 
-/* line 444, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 471, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-profolio-item img {
   position: absolute;
   top: 0;
@@ -557,7 +591,7 @@ body {
   z-index: -9;
 }
 
-/* line 452, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 479, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-profolio-item-overlay {
   position: absolute;
   top: 0;
@@ -572,7 +606,7 @@ body {
   color: #fff;
 }
 
-/* line 464, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 491, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-profolio-item-overlay__detail {
   position: absolute;
   width: 25vw;
@@ -581,7 +615,7 @@ body {
   display: none;
 }
 
-/* line 470, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 497, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-profolio-item-overlay__detail h3 {
   font-family: SourceSansPro-Semibold;
   font-size: 24px;
@@ -589,7 +623,7 @@ body {
   margin-bottom: 8px;
 }
 
-/* line 475, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 502, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-profolio-item-overlay__detail h3:before {
   content: "";
   height: 4px;
@@ -599,23 +633,23 @@ body {
   background: #fff;
 }
 
-/* line 484, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 511, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-profolio-item-overlay__detail span {
   font-family: OpenSans-Regular;
   font-size: 14px;
 }
 
-/* line 491, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 518, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-profolio-item:hover .work-profolio-item-overlay {
   width: 100%;
 }
 
-/* line 493, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 520, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .work-profolio-item:hover .work-profolio-item-overlay__detail {
   display: block;
 }
 
-/* line 503, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 530, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .title h1 {
   font-size: 72px;
   font-family: OpenSans-Bold;
@@ -626,7 +660,7 @@ body {
   letter-spacing: 10px;
 }
 
-/* line 513, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 540, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .title h3 {
   font-size: 36px;
   font-family: SourceSansPro-Bold;
@@ -638,7 +672,7 @@ body {
   letter-spacing: 4px;
 }
 
-/* line 523, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 550, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .title span {
   font-size: 24px;
   font-family: SourceSansPro-Regular;
@@ -649,7 +683,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* line 532, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 559, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .title p {
   width: 100%;
   text-align: center;
@@ -659,7 +693,7 @@ body {
   line-height: 1.5;
 }
 
-/* line 540, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 567, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .title__separate {
   width: 7px;
   height: 7px;
@@ -669,7 +703,7 @@ body {
   position: relative;
 }
 
-/* line 547, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 574, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .title__separate::before {
   position: absolute;
   right: 5%;
@@ -682,7 +716,7 @@ body {
   background: #999;
 }
 
-/* line 558, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 585, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .title__separate::after {
   position: absolute;
   left: 5%;
@@ -695,29 +729,29 @@ body {
   background: #999;
 }
 
-/* line 570, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 597, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .title--header {
   position: absolute;
-  top: 200px;
+  top: 30%;
   width: 100%;
   z-index: 99;
   left: 50%;
   transform: translateX(-50%);
 }
 
-/* line 577, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 604, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .title--header .title__separate {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 
-/* line 582, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 609, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .title--header h1 {
   margin-top: 50px;
 }
 
-/* line 585, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 612, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .title--header p {
   position: absolute;
   left: 50%;
@@ -728,24 +762,24 @@ body {
   text-align: center;
 }
 
-/* line 596, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 623, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .title--white h3, .title--white p {
   color: #fff;
 }
 
-/* line 599, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 626, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .title--white .title__separate::before, .title--white .title__separate::after {
   background: #fff;
 }
 
-/* line 605, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 632, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .count {
   position: relative;
   height: 510px;
   width: 100%;
 }
 
-/* line 609, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 636, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .count__background {
   position: absolute;
   top: 0;
@@ -756,7 +790,7 @@ body {
   z-index: -99;
 }
 
-/* line 618, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 645, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .count__overlay {
   position: relative;
   top: 0;
@@ -766,20 +800,20 @@ body {
   z-index: 0;
 }
 
-/* line 626, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 653, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .count-list {
   display: flex;
   margin-top: 150px;
 }
 
-/* line 629, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 656, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .count-list-item {
   width: 12%;
   text-align: center;
   margin-right: auto;
 }
 
-/* line 633, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 660, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .count-list-item__circle {
   width: 110px;
   height: 110px;
@@ -795,7 +829,7 @@ body {
   margin-bottom: 50px;
 }
 
-/* line 647, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 674, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .count-list-item__number {
   font-size: 30px;
   font-family: SourceSansPro-Bold;
@@ -804,7 +838,7 @@ body {
   letter-spacing: 0.5px;
 }
 
-/* line 654, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 681, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .count-list-item__text {
   font-size: 14px;
   font-family: SourceSansPro-Light;
@@ -812,29 +846,29 @@ body {
   letter-spacing: 1px;
 }
 
-/* line 660, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 687, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .count-list-item:last-child {
   margin-right: 0;
 }
 
-/* line 667, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 694, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price {
   padding: 145px 0 140px;
 }
 
-/* line 669, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 696, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list {
   margin-top: 66px;
   display: flex;
 }
 
-/* line 672, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 699, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list-item {
   width: 32.5%;
   margin-right: auto;
 }
 
-/* line 675, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 702, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list-item__title {
   width: 100%;
   height: 205px;
@@ -848,14 +882,14 @@ body {
   text-align: center;
 }
 
-/* line 687, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 714, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list-item-detail {
   position: relative;
   background: #f4f5f9;
   padding: 120px 0 140px;
 }
 
-/* line 691, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 718, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list-item-detail__mark {
   position: absolute;
   top: 0;
@@ -873,32 +907,32 @@ body {
   text-align: center;
 }
 
-/* line 706, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 733, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list-item-detail__mark h3 {
   font-size: 40px;
   color: #999;
   font-family: SourceSansPro-Bold;
 }
 
-/* line 711, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 738, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list-item-detail__mark p {
   font-size: 14px;
   color: #999;
 }
 
-/* line 717, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 744, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list-item-detail ul li {
   color: #999;
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* line 721, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 748, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list-item-detail ul li:last-child {
   margin-bottom: 0;
 }
 
-/* line 726, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 753, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list-item-detail button {
   position: absolute;
   bottom: 50px;
@@ -916,27 +950,27 @@ body {
   cursor: pointer;
 }
 
-/* line 745, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 772, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list-item--red .price-list-item__title {
   background: #e74c3c;
 }
 
-/* line 749, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 776, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list-item--red .price-list-item-detail h3 {
   color: #e74c3c;
 }
 
-/* line 752, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 779, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list-item--red .price-list-item-detail button {
   background: #e74c3c;
 }
 
-/* line 757, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 784, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .price-list-item:last-child {
   margin-right: 0;
 }
 
-/* line 764, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 791, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .team {
   width: 100%;
   height: 745px;
@@ -944,7 +978,7 @@ body {
   position: relative;
 }
 
-/* line 769, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 796, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .team__background {
   position: absolute;
   top: 0;
@@ -955,7 +989,7 @@ body {
   z-index: -9;
 }
 
-/* line 778, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 805, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .team__overlay {
   position: absolute;
   top: 0;
@@ -966,7 +1000,7 @@ body {
   background: rgba(32, 32, 32, 0.75);
 }
 
-/* line 789, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 816, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .client {
   width: 100%;
   height: auto;
@@ -974,7 +1008,7 @@ body {
   border-bottom: 1px solid #999;
 }
 
-/* line 794, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 821, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .client-list {
   margin-top: 65px;
   margin-right: -10px;
@@ -983,7 +1017,7 @@ body {
   flex-wrap: wrap;
 }
 
-/* line 800, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 827, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .client-list-item {
   padding: 10px;
   width: 20%;
@@ -991,7 +1025,7 @@ body {
   height: 100px;
 }
 
-/* line 805, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 832, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .client-list-item__image {
   width: 100%;
   height: 100%;
@@ -1006,25 +1040,25 @@ body {
   cursor: pointer;
 }
 
-/* line 817, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 844, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .client-list-item__image img {
   filter: grayscale(100%);
   opacity: 0.5;
   transition: all 0.3s;
 }
 
-/* line 822, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 849, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .client-list-item__image:hover {
   background: #e74c3c;
 }
 
-/* line 824, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 851, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .client-list-item__image:hover img {
   filter: none;
   opacity: 1;
 }
 
-/* line 835, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 862, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study {
   width: 100%;
   height: 1190px;
@@ -1033,7 +1067,7 @@ body {
   background: #f4f5f9;
 }
 
-/* line 841, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 868, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box {
   margin-top: 67px;
   width: 100%;
@@ -1041,7 +1075,7 @@ body {
   position: relative;
 }
 
-/* line 846, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 873, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box__image {
   position: absolute;
   width: 50%;
@@ -1050,7 +1084,7 @@ body {
   z-index: 0;
 }
 
-/* line 853, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 880, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide {
   position: absolute;
   height: 627px;
@@ -1061,12 +1095,12 @@ body {
   z-index: 1;
 }
 
-/* line 861, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 888, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-list {
   height: 100%;
 }
 
-/* line 863, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 890, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-list-item {
   z-index: 9;
   height: 100%;
@@ -1076,7 +1110,7 @@ body {
   display: none;
 }
 
-/* line 870, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 897, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-list-item__image {
   width: 90px;
   height: 90px;
@@ -1088,13 +1122,13 @@ body {
   transform: rotate(45deg);
 }
 
-/* line 879, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 906, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-list-item__image img {
   max-height: 30px;
   transform: rotate(-45deg);
 }
 
-/* line 884, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 911, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-list-item h3 {
   font-family: OpenSans-Semibold;
   font-size: 18px;
@@ -1104,7 +1138,7 @@ body {
   margin-bottom: 28px;
 }
 
-/* line 891, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 918, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-list-item h3::after {
   content: "";
   display: block;
@@ -1115,7 +1149,7 @@ body {
   margin-top: 25px;
 }
 
-/* line 901, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 928, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-list-item p {
   font-family: SourceSansPro-Light;
   font-size: 14px;
@@ -1124,7 +1158,7 @@ body {
   margin-bottom: 50px;
 }
 
-/* line 908, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 935, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-list-item button {
   background: #e74c3c;
   height: 46px;
@@ -1138,12 +1172,12 @@ body {
   font-size: 12px;
 }
 
-/* line 920, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 947, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-list-item--active {
   display: block;
 }
 
-/* line 925, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 952, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-dot {
   position: absolute;
   display: flex;
@@ -1153,37 +1187,37 @@ body {
   transform: translateX(-50%);
 }
 
-/* line 932, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 959, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-dot__item {
   color: #f4f5f9;
   margin-right: 10px;
   cursor: pointer;
 }
 
-/* line 936, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 963, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-dot__item--active {
   color: #e74c3c;
 }
 
-/* line 939, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 966, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-dot__item:last-child {
   margin-right: 0;
 }
 
-/* line 942, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 969, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .study-box-slide-dot__item i {
   height: 12px;
   width: 12px;
   color: inherit;
 }
 
-/* line 953, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 980, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog {
   width: 100%;
   padding-top: 100px;
 }
 
-/* line 956, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 983, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio {
   margin-top: 70px;
   width: 100%;
@@ -1191,14 +1225,14 @@ body {
   flex-wrap: wrap;
 }
 
-/* line 961, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 988, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio-single {
   width: 50%;
   height: 25vw;
   display: flex;
 }
 
-/* line 965, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 992, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio-single img {
   width: 50%;
   height: 100%;
@@ -1206,7 +1240,7 @@ body {
   z-index: -1;
 }
 
-/* line 971, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 998, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio-single-content {
   width: 50%;
   height: 100%;
@@ -1219,13 +1253,13 @@ body {
   padding-top: 5.2%;
 }
 
-/* line 982, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1009, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio-single-content span {
   font-size: 14px;
   font-family: OpenSans-Regular;
 }
 
-/* line 986, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1013, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio-single-content h3 {
   font-size: 24px;
   font-family: SourceSansPro-Semibold;
@@ -1234,7 +1268,7 @@ body {
   margin-bottom: 5%;
 }
 
-/* line 992, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1019, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio-single-content h3::after {
   content: "";
   display: block;
@@ -1244,25 +1278,25 @@ body {
   width: 45px;
 }
 
-/* line 1001, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1028, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio-single-content p {
   font-size: 16px;
   font-family: OpenSans-Regular;
 }
 
-/* line 1005, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1032, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio-single-content a {
   font-size: 18px;
   font-family: OpenSans-SemiboldItalic;
   color: #fff;
 }
 
-/* line 1009, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1036, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio-single-content a span {
   font-family: OpenSans-Semibold;
 }
 
-/* line 1013, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1040, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio-single-content::before {
   position: absolute;
   display: block;
@@ -1277,7 +1311,7 @@ body {
   border-bottom: 2vw solid transparent;
 }
 
-/* line 1026, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1053, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio-single-content::after {
   position: absolute;
   display: none;
@@ -1292,24 +1326,24 @@ body {
   border-bottom: 2vw solid transparent;
 }
 
-/* line 1040, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1067, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio-single-content--left::before {
   display: none;
 }
 
-/* line 1043, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1070, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .blog-profolio-single-content--left::after {
   display: block;
 }
 
-/* line 1052, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1079, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact {
   width: 100%;
   padding: 140px 0 150px;
   background: #f4f5f9;
 }
 
-/* line 1056, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1083, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact-box {
   display: flex;
   flex-wrap: wrap;
@@ -1317,7 +1351,7 @@ body {
   margin-top: 66px;
 }
 
-/* line 1061, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1088, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact-box-address {
   width: 41%;
   box-sizing: border-box;
@@ -1329,12 +1363,12 @@ body {
   box-shadow: 1px 5px 26px -3px rgba(0, 0, 0, 0.2);
 }
 
-/* line 1070, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1097, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact-box-address__item {
   margin-bottom: 55px;
 }
 
-/* line 1072, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1099, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact-box-address__item h1 {
   font-family: SourceSansPro-Semibold;
   color: #e74c3c;
@@ -1343,19 +1377,19 @@ body {
   margin-bottom: 18px;
 }
 
-/* line 1079, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1106, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact-box-address__item p {
   font-family: OpenSans-Regular;
   font-size: 18px;
   color: #999;
 }
 
-/* line 1084, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1111, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact-box-address__item:last-child {
   margin-bottom: 0;
 }
 
-/* line 1089, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1116, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact-box-text {
   width: 57%;
   box-sizing: border-box;
@@ -1365,7 +1399,7 @@ body {
   box-shadow: 1px 5px 26px -3px rgba(0, 0, 0, 0.2);
 }
 
-/* line 1096, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1123, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact-box-text input {
   width: 100%;
   font-family: OpenSans-Semibold;
@@ -1377,12 +1411,12 @@ body {
   margin-bottom: 25px;
 }
 
-/* line 1105, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1132, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact-box-text input:focus {
   outline: none;
 }
 
-/* line 1109, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1136, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact-box-text textarea {
   width: 100%;
   border: none;
@@ -1393,18 +1427,18 @@ body {
   color: #6a6a6a;
 }
 
-/* line 1117, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1144, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact-box-text textarea::placeholder {
   font-family: OpenSans-Semibold;
   font-size: 14px;
 }
 
-/* line 1121, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1148, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact-box-text textarea:focus {
   outline: none;
 }
 
-/* line 1125, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1152, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .contact-box-text button {
   height: 44px;
   padding: 0 26px;
@@ -1418,7 +1452,7 @@ body {
   cursor: pointer;
 }
 
-/* line 1141, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1168, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .trial {
   height: 480px;
   width: 100%;
@@ -1426,7 +1460,7 @@ body {
   position: relative;
 }
 
-/* line 1146, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1173, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .trial__background {
   position: absolute;
   top: 0;
@@ -1437,7 +1471,7 @@ body {
   z-index: -99;
 }
 
-/* line 1155, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1182, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .trial__overlay {
   position: absolute;
   top: 0;
@@ -1449,7 +1483,7 @@ body {
   z-index: -1;
 }
 
-/* line 1165, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1192, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .trial__content {
   position: absolute;
   width: 100%;
@@ -1460,7 +1494,7 @@ body {
   z-index: 99;
 }
 
-/* line 1173, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1200, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .trial__content h3 {
   font-family: SourceSansPro-Light;
   font-size: 32px;
@@ -1468,19 +1502,19 @@ body {
   letter-spacing: 1px;
 }
 
-/* line 1178, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1205, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .trial__content h3 b {
   font-family: OpenSans-Bold;
 }
 
-/* line 1182, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1209, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .trial__content p {
   font-family: OpenSans-Regular;
   font-size: 16px;
   margin-bottom: 70px;
 }
 
-/* line 1187, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1214, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .trial__content button {
   font-size: 14px;
   font-family: OpenSans-Bold;
@@ -1494,12 +1528,12 @@ body {
   cursor: pointer;
 }
 
-/* line 1198, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1225, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .trial__content button:focus {
   outline: none;
 }
 
-/* line 1205, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1232, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .footer {
   background: #202020;
   height: 90px;
@@ -1507,7 +1541,7 @@ body {
   box-sizing: border-box;
 }
 
-/* line 1210, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1237, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .footer-social {
   position: absolute;
   left: 0;
@@ -1517,7 +1551,7 @@ body {
   align-items: center;
 }
 
-/* line 1217, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1244, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .footer-social__item {
   font-size: 14px;
   color: #999;
@@ -1526,22 +1560,22 @@ body {
   transition: 0.2s color;
 }
 
-/* line 1223, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1250, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .footer-social__item a {
   color: inherit;
 }
 
-/* line 1226, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1253, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .footer-social__item:hover {
   color: #e74c3c;
 }
 
-/* line 1229, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1256, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .footer-social__item:last-child {
   margin-right: 0;
 }
 
-/* line 1234, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1261, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .footer__author {
   position: absolute;
   right: 0;
@@ -1552,15 +1586,20 @@ body {
   font-size: 14px;
 }
 
-/* line 1245, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1272, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .test {
   box-sizing: border-box;
   border: 1px dashed red;
 }
 
-/* line 1248, D:/PROJECT/HTML/html-bino/Bino/scss/style.scss */
+/* line 1275, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
 .test--2 {
   border: 1px dashed blue;
+}
+
+/* line 1278, D:/Work/VietIS/HTML/html-bino/Bino/scss/style.scss */
+.test--3 {
+  border: 1px solid black;
 }
 
 /*# sourceMappingURL=../css/style.map */

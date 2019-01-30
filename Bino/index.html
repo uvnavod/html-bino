@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bino</title>
-  <!-- <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
@@ -27,7 +26,7 @@
             <a href="">portfolio</a>
           </li>
           <li class="header-nav-menu__item">
-            <a href="">pricing</a>
+            <a href="#pricing">pricing</a>
           </li>
           <li class="header-nav-menu__item">
             <a href="">team</a>
@@ -59,6 +58,13 @@
         </li><!-- .header-slide-list__item -->
       </ul><!-- .header-slide-list -->
     </div><!-- .header-slide -->
+    <div class="header-down">
+      <a href="#about">
+      <div class="header-down__item">
+        <img src="img/ic_anchor_red.png" alt="">
+      </div>
+      </a>
+    </div>
   </section><!-- .header -->
 
   <section id="about" class="about">
@@ -122,8 +128,10 @@
       <h3>our services</h3>
       <ul class="service-detail-list">
         <li class="service-detail-list-item">
-          <div class="service-detail-list-item__image">
-            <img src="img/ic_tv_red.png" alt="">
+          <div class="service-detail-list-item-image">
+            <div class="service-detail-list-item-image__center">
+              <img src="img/ic_tv_red.png" alt="">
+            </div>
           </div>
           <div class="service-detail-list-item__content">
             <h4>web design</h4>
@@ -131,8 +139,10 @@
           </div>
         </li><!-- .service-detail-list-item -->
         <li class="service-detail-list-item">
-          <div class="service-detail-list-item__image">
-            <img src="img/ic_doc_red.png" alt="">
+          <div class="service-detail-list-item-image">
+            <div class="service-detail-list-item-image__center">
+              <img src="img/ic_doc_red.png" alt="">
+            </div>
           </div>
           <div class="service-detail-list-item__content">
             <h4>print design</h4>
@@ -140,8 +150,10 @@
           </div>
         </li><!-- .service-detail-list-item -->
         <li class="service-detail-list-item">
-          <div class="service-detail-list-item__image">
-            <img src="img/ic_camera_red.png" alt="">
+          <div class="service-detail-list-item-image">
+            <div class="service-detail-list-item-image__center">
+              <img src="img/ic_camera_red.png" alt="">
+            </div>
           </div>
           <div class="service-detail-list-item__content">
             <h4>photography</h4>
@@ -371,7 +383,7 @@
     </div><!-- .container -->
   </section><!-- .count -->
 
-  <section class="price">
+  <section id="pricing" class="price">
     <div class="container">
       <div class="title">
         <h3>our pricing</h3>
